@@ -1,5 +1,7 @@
 package com.zrx.action;
 
+import org.apache.struts2.ServletActionContext;
+
 import com.opensymphony.xwork2.ActionSupport;
 import com.zrx.dao.UserDao;
 import com.zrx.domain.User;
@@ -12,6 +14,7 @@ public class FirstAction extends ActionSupport {
 	@Override
 	public String execute() throws Exception {
 		// TODO Auto-generated method stub
+		// ServletActionContext
 		return SUCCESS;
 	}
 
